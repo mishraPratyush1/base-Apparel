@@ -1,0 +1,144 @@
+svg.logo{
+    overflow: hidden;
+    margin: 100px;
+    vertical-align: middle;
+    opacity: 100%;
+    
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.normal {
+    text-transform: uppercase;
+    letter-spacing:4px;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 47px;
+    word-break: break-all;
+}
+.new{
+    text-transform: uppercase;
+    color:  hsl(0, 93%, 68%);
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: 200;
+    line-height: 39px;
+}
+.lead{
+    color: hsl(0, 82%, 74%);
+}
+.dew{
+    background-position: center;
+}
+span{
+    color: black;
+    word-break: keep-all;
+}
+input{
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 40px;
+    width: 230px;
+    border: 2px solid pink;
+    background: hsl(4, 71%, 81%);
+    
+}
+input:focus
+{
+    background: rgb(255, 255, 255);
+    width: 250px;
+    outline: none;
+    background: hsl(4, 71%, 81%);
+    cursor: text;
+
+}
+.center{
+    text-align: center;
+}
+input:hover{
+    width:65%;
+}
+.container-fluid{
+    
+    height: 490px;
+    width: 800px;
+    background: rgba(255, 182, 193,0.2);
+    box-shadow: 3px 5px 3px 5px #000000;
+    
+}
+
+.lead{
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(0, 93%, 68%);
+    text-align: center;
+
+}
+@media (max-width: 776px) 
+{
+    .lead{
+        font-size: 18px;
+    }
+    img{
+       
+        padding: 10px;
+        text-align: center; 
+    }
+    
+    .one{
+        margin-top: 79px;
+    }
+    .container-fluid{
+        text-align: center;
+        width: 80%;
+        box-shadow: 3px 3px 3px 3px rgb(0, 0, 0);
+        
+    }
+    input{
+        margin-bottom: 30px;
+        width: 60%;
+    }
+
+}
+i{
+   
+    color: rgb(221, 125, 162);
+    text-align: center;
+    font-size: 90px;
+    size: max;
+    background-size: 100% 100%;
+    
+    
+}
+::placeholder{
+    color: hsl(0, 82%, 74%);
+    opacity: 1;
+    font-weight: bold;
+    font-family: 'josefin sans',sans-serif;
+    text-align: center;
+}
+img{
+    height: 200px;
+    width: 300px;
+    margin-left: 0;
+    
+}
+hr{
+    align-content: space-between;
+}
+body{
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.text{
+    text-align: center;
+}
+.normal:hover{
+    color: rgb(247, 93, 93);
+}
+.new:hover{
+    color: rgb(221, 31, 31);
+    transition: ease-in-out;
+}
